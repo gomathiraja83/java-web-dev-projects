@@ -7,7 +7,7 @@ public class Area {
         System.out.println("Enter a radius: ");
 
         if (input.hasNextDouble()){
-            Double radius = input.nextDouble();
+            double radius = input.nextDouble();
             while (radius < 0) {
                 System.out.println("Radius is negative.");
                 System.out.println("Enter a radius: ");
